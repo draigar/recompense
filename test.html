@@ -1,0 +1,283 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+    <title>Mobile Responsive Email</title>
+
+    <style type="text/css">
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .mobile {
+            display: none;
+            overflow: hidden;
+            visibility: hidden;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        @media only screen and (max-width: 479px) {
+            /**change to max-device-width after testing**/
+
+            td[class="desktop"],
+            table[class="desktop"] {
+                display: none !important;
+            }
+
+            td[class="mobile_only"],
+            table[class="mobile_only"],
+            img[class="mobile_only"],
+            div[class="mobile_only"],
+            tr[class="mobile_only"] {
+                display: block !important;
+                width: auto !important;
+                overflow: visible !important;
+                height: auto !important;
+                max-height: inherit !important;
+                font-size: 15px !important;
+                line-height: 21px !important;
+                visibility: visible !important;
+            }
+
+            img[class="mobile_header"] {
+                width: 320px !important;
+                height: 243px !important;
+                display: block !important;
+                overflow: visible !important;
+                visibility: visible !important;
+            }
+
+            td[class="full_width"],
+            table[class="full_width"] {
+                width: 320px !important;
+            }
+
+            td[class="medium_width"],
+            table[class="medium_width"] {
+                width: 272px !important;
+            }
+
+            td[class="intro_text"],
+            table[class="intro_text"] {
+                font-size: 14px !important;
+                line-height: 20px !important;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body bgcolor="#f5f5f5"
+    style="background-color:#f5f5f5; margin:0; padding:0;-webkit-font-smoothing: antialiased;width:100% !important;-webkit-text-size-adjust:none;"
+    topmargin="0">
+    <div style="font-size: 1px; color: #f5f5f5; display: none;">Short description appears as email content preview.
+    </div>
+
+
+    <!--wrapper table-->
+    <table width="100%" bgcolor="#f5f5f5" style="background-color:#f5f5f5;" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+
+                <table class="full_width" align="center" width="650" border="0" cellpadding="0" cellspacing="0"
+                    style="padding-top: 12px;">
+                    <tr>
+                        <td style="display:flex; justify-content: center;"><img alt="Logo" src="qube_main_logo.png"
+                                width="220" border="0" hspace="0" vspace="0" style="vertical-align:top; "></td>
+                        <!-- <td class="desktop" align="right" valign="bottom" style="color:#333333; font-family: Helvetica, sans-serif; font-size: 11px; line-height:13px; padding-top:24px;">Insert Subject line <div class="full_width"><a href="#" target="_blank" style="color:#006699;">Call to action</a> | <a href="#" target="_blank" style="color:#006699;">Read online</a></div></td> -->
+                    </tr>
+                </table>
+
+                <!-- header text mobile-->
+
+                <div class="mobile_only" style="width:0;max-height:0;overflow:hidden;float:left;display:none;">
+                    <table class="mobile_only" align="center" width="320" height="0" border="0" cellpadding="0"
+                        cellspacing="0" style="overflow:hidden;display:none;visibility:hidden;width:0;max-height:0;">
+                        <tr class="mobile_only" style="overflow:hidden;visibility:hidden;width:0;max-height:0;">
+                            <td class="mobile_only" valign="top"
+                                style="color:#333333; font-family: Helvetica, sans-serif;font-size:1px;line-height:1px;overflow:hidden;height:0px;visibility:hidden;width:0;max-height:0;padding-left: 12px; padding-right: 12px; padding-bottom: 0px;padding-top: 0px;">
+                                <div class="mobile_only"
+                                    style="overflow:hidden;height:0px;font-size:1px;line-height:1px;visibility:hidden;width:0;max-height:0;">
+                                    <br />Insert subject line<br /><a href="#" target="_blank"
+                                        style="color:#006699;">Call to action</a> | <a href="#" target="_blank"
+                                        style="color:#006699;">Read online</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+
+    <!-- spacer -->
+
+    <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td height="12" bgcolor="#f5f5f5" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
+        </tr>
+    </table>
+
+
+    <!-- wrapper table-->
+    <table width="100%" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>&nbsp;</td>
+
+            <td class="full_width" width="450" align="center"
+                style="border-left:1px solid #d8d8d8; border-right:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; border-top:1px solid #d8d8d8; width: 400px;">
+
+                <!-- header image -->
+
+
+                
+                            <!-- bottom column-->
+
+                            <table class="medium_width" align="center" width="100%" border="0" cellpadding="0"
+                                cellspacing="0">
+                                <tr>
+                                    <td class="desktop" width="67" style="padding-top:18px;">&nbsp;</td>
+                                    <td
+                                        style="color:#333333; font-family: Helvetica, sans-serif;text-align:left; font-size:14px; line-height:20px; padding-top:18px; padding-bottom:18px;">
+                                        <strong>Store and access files on Website.com.</strong><br>
+                                        Apply your organization's custom branding to email and download pages so your
+                                        customers know
+                                        the files you are sending are from you recognizing your logo at the top of your
+                                        notifications.<br>
+                                        <a href="#" style="color:#006699; text-decoration:underline;"
+                                            target="_blank">Learn more
+                                            &#8250;</a>
+                                    </td>
+                                    <td class="desktop" width="34"
+                                        style="border-top: 1px solid #d9d9d9;padding-top:18px;">&nbsp;
+                                    </td>
+
+                                    <td class="desktop" width="67" style="padding-top:18px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <!--spacer-->
+
+                            <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td height="24" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="desktop"><a target="_blank" href="#"><img width="650" vspace="0"
+                                                hspace="0" border="0" height="400" style="display:block;"
+                                                src="http://placehold.it/1300x800.jpg" alt="Headline here"></a></td>
+                                    <td class="mobile_only"
+                                        style="width:0; overflow:hidden; display:none;visibility:hidden;"><a
+                                            target="_blank" href="#"><img width="320" vspace="0" hspace="0" border="0"
+                                                height="243"
+                                                style="width:0; overflow:hidden; display:none;visibility:hidden;"
+                                                class="mobile_header" src="http://placehold.it/640x486.jpg"
+                                                alt="Headline Here"></a>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                            <table class="medium_width" align="center" width="380" border="0" cellpadding="0"
+                                cellspacing="0">
+                                <tr>
+                                    <td
+                                        style="color:#333333; font-family: Helvetica, sans-serif;text-align:left; font-size:14px; line-height:20px; padding-bottom:18px;text-align:center;">
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit
+                                        anim id est laborum.
+                                    </td>
+                                </tr>
+                            </table>
+
+
+
+                <!-- social media links -->
+
+                <table class="medium_width" style="background-color: #c42630; padding: 30px 0 " align="center"
+                    width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="desktop" width="67" style="padding-top:12px;">&nbsp;</td>
+                        <td align="right" valign="top" style="padding-top:12px;">
+                            <table width="200" border="0" cellpadding="0" cellspacing="0">
+                                <tr style="display:flex;flex-direction: column;justify-content: flex-end;">
+                                    <td align="right"
+                                        style="color:#ffffff; font-family: Helvetica, sans-serif;font-size:13px; line-height:20px;">
+                                        Suite K153 - K157, Road 5, Ikota Shopping Complex, Ikota, Lekki-Epe Expressway,
+                                        Lagos</td>
+                                    <td class="desktop" width="67" style="padding-top:5px;">&nbsp;</td>
+                                    <td valign="top"
+                                        style="color:#006699; font-family: Helvetica, sans-serif;text-align:left; font-size:12px; line-height:16px;">
+                                        <table width="66" align="right" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="24"><a href="#" alias="Twitter" target="_blank">
+                                                        <svg version="1.1" id="Capa_1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            viewBox="0 0 167.657 167.657" width="16px" height="16px"
+                                                            style="enable-background:new 0 0 167.657 167.657;"
+                                                            xml:space="preserve">
+                                                            <g>
+                                                                <path style="fill:#ffffff;" d="M83.829,0.349C37.532,0.349,0,37.881,0,84.178c0,41.523,30.222,75.911,69.848,82.57v-65.081H49.626
+		v-23.42h20.222V60.978c0-20.037,12.238-30.956,30.115-30.956c8.562,0,15.92,0.638,18.056,0.919v20.944l-12.399,0.006
+		c-9.72,0-11.594,4.618-11.594,11.397v14.947h23.193l-3.025,23.42H94.026v65.653c41.476-5.048,73.631-40.312,73.631-83.154
+		C167.657,37.881,130.125,0.349,83.829,0.349z" />
+                                                            </g>
+                                                        </svg>
+                                                </td>
+                                                <td width="24"><a href="#" alias="Facebook" target="_blank">
+                                                        <svg viewBox="0 0 512.00096 512.00096" width="16px"
+                                                            height="16px" fill="white"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0" />
+                                                            <path
+                                                                d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0" />
+                                                            <path
+                                                                d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0" />
+                                                        </svg>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="desktop" width="67" style="padding-top:12px;">&nbsp;</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <!--/end wrapper-->
+
+
+    <!-- legal disclaimer -->
+
+    <table class="full_width" bgcolor="#f5f5f5" align="center" width="650" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="desktop" width="22">&nbsp;</td>
+            <td align="center"
+                style="color:#a1a1a1; font-family: Helvetica, sans-serif;text-align:left; font-size:11px; line-height:13px; text-align:left; padding-top:20px; padding-bottom:40px;">
+                &copy; 2020 Qube MF Bank(811602). All rights reserved. </td>
+            <td class="desktop" width="22">&nbsp;</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
